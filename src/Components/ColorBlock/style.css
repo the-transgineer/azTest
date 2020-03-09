@@ -1,0 +1,23 @@
+.ColorBlock {
+    width: 434px;
+    height: 228px;
+    border-radius: 4px;
+    border: 14px solid white;
+    z-index: 5;
+    position: relative;
+    filter: drop-shadow(0 0 10px rgba(183,183,183,0.5));
+    bottom: 50%;
+}
+
+.ColorBlock p {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .ColorBlock {
+        bottom: auto;
+        position: relative;
+    }   
+}

@@ -1,0 +1,11 @@
+.FooterLinks {
+    color: white;
+    text-align: left;
+    margin: auto;
+    padding: 50px; 
+}
+
+.FooterLinks a {
+    text-decoration: none;
+    color: white
+}

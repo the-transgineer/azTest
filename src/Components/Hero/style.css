@@ -1,0 +1,62 @@
+.hero {
+    max-height: 400px;
+    height: 400px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    text-align: left;
+    padding: 0 10px 0 10px;
+}
+
+.hero .text{
+    margin-left: 20px;
+    color: white;
+    width: 50%;
+}
+
+.hero .text h1 {
+    font-size: 60px;
+    font-weight: 900;
+    margin-bottom: 5px;
+}
+
+.hero .text h3{ 
+    font-size: 36px;
+    font-weight: 300;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.hero .text h6 {
+    font-size: 18px;
+    font-weight: 400px;
+    width: 650px;
+    margin-top: 5px;
+}
+
+.hero .productImage {
+    position: absolute;
+    right: 10%;
+}
+
+.blocks {
+    height: 200px;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .blocks {
+        height: 550px;
+        justify-content: center;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding: 20px;
+        padding-right: 0;
+    }
+    .hero .text h6 {
+        width: 400px;
+    }
+}
+  
